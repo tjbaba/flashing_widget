@@ -4,7 +4,9 @@ import 'package:flashing_widget/flashing_widget.dart';
 
 void main() {
   group('FlashingWidget Tests', () {
-    testWidgets('FlashingWidget creates without error', (WidgetTester tester) async {
+    testWidgets('FlashingWidget creates without error', (
+      WidgetTester tester,
+    ) async {
       bool onTapCalled = false;
 
       await tester.pumpWidget(
@@ -57,17 +59,14 @@ void main() {
       expect(onTapCalled, true);
     });
 
-    testWidgets('FlashingWidget shows child widget', (WidgetTester tester) async {
+    testWidgets('FlashingWidget shows child widget', (
+      WidgetTester tester,
+    ) async {
       const testChild = Text('Child Widget');
 
       await tester.pumpWidget(
         MaterialApp(
-          home: Scaffold(
-            body: FlashingWidget(
-              onTap: () {},
-              child: testChild,
-            ),
-          ),
+          home: Scaffold(body: FlashingWidget(onTap: () {}, child: testChild)),
         ),
       );
 

@@ -152,7 +152,8 @@ class _ExampleScreenState extends State<ExampleScreen> {
                   _updateMessage('Button-style widget tapped!');
                 },
                 child: Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
                   decoration: BoxDecoration(
                     color: Colors.purple,
                     borderRadius: BorderRadius.circular(8),
