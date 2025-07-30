@@ -3,6 +3,20 @@ description: A customizable Flutter widget that creates a flashing animation eff
 version: 1.0.0
 homepage: https://github.com/tjbaba/flashing_widget
 repository: https://github.com/tjbaba/flashing_widget
+topics:
+  - flutter
+  - flutter-widget
+  - animation
+  - dart
+  - flutter-package
+  - ui
+  - flutter-animation
+  - widget
+  - flashing
+  - gesture
+  - tap-animation
+  - flutter-ui
+  - mobile-development
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -16,6 +30,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+
+
 
 flutter:
 # This package does not contain any assets
