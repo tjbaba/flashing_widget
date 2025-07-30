@@ -9,14 +9,6 @@ topics:
   - animation
   - dart
   - flutter-package
-  - ui
-  - flutter-animation
-  - widget
-  - flashing
-  - gesture
-  - tap-animation
-  - flutter-ui
-  - mobile-development
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
